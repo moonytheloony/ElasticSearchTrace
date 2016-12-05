@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "TraceWriterApplication", "TraceWriterApplication\TraceWriterApplication.sfproj", "{F02B8763-B0E0-4C6B-BFE7-FC097B350694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceService", "TraceService\TraceService.csproj", "{85830189-B26C-4308-896B-EDDB174EB131}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F02B8763-B0E0-4C6B-BFE7-FC097B350694}.Debug|x64.ActiveCfg = Debug|x64
+		{F02B8763-B0E0-4C6B-BFE7-FC097B350694}.Debug|x64.Build.0 = Debug|x64
+		{F02B8763-B0E0-4C6B-BFE7-FC097B350694}.Debug|x64.Deploy.0 = Debug|x64
+		{F02B8763-B0E0-4C6B-BFE7-FC097B350694}.Release|x64.ActiveCfg = Release|x64
+		{F02B8763-B0E0-4C6B-BFE7-FC097B350694}.Release|x64.Build.0 = Release|x64
+		{F02B8763-B0E0-4C6B-BFE7-FC097B350694}.Release|x64.Deploy.0 = Release|x64
+		{85830189-B26C-4308-896B-EDDB174EB131}.Debug|x64.ActiveCfg = Debug|x64
+		{85830189-B26C-4308-896B-EDDB174EB131}.Debug|x64.Build.0 = Debug|x64
+		{85830189-B26C-4308-896B-EDDB174EB131}.Release|x64.ActiveCfg = Release|x64
+		{85830189-B26C-4308-896B-EDDB174EB131}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
